@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.byelkawolf</groupId>
-	<artifactId>FoodTracker</artifactId>
+	<artifactId>food-apper</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>webappdemo</name>
+	<name>food-apper</name>
 	<description>Demo app for spring-boot. Added brief montecarlo simulation for interview </description>
 
 	<!--<parent>-->
@@ -22,7 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<spring.version>1.5.4.RELEASE</spring.version>
+		<spring.version>1.5.7.RELEASE</spring.version>
 		<h2.version>1.4.195</h2.version>
 	</properties>
 
@@ -95,6 +95,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${spring.version}</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
